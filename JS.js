@@ -5,32 +5,32 @@ startMazeBtn.addEventListener("click", function() {
     {
       question: "La cuenta “moneda extranjera” se encuentra ubicada en:",
       options: {
-        A: "Clase 1",
-        B: "Clase 2",
-        C: "Clase 6",
-        D: "Clase 8"
+        a: "Clase 1",
+        b: "Clase 2",
+        c: "Clase 6",
+        d: "Clase 8"
       },
-      answer: "A"
+      answer: "a"
     },
     {
-      question: "¿pregunta?",
+      question: "La cuenta “Acreedores del sistema” se encuentra ubicada en:",
       options: {
-        A: "A",
-        B: "B",
-        C: "C",
-        D: "D"
+        a: "Clase 3",
+        b: "Clase 1",
+        c: "Clase 2",
+        d: "Clase 5"
       },
-      answer: "A"
+      answer: "c"
     },
     {
-      question: "¿pregunta?",
+      question: "La cuenta “Donaciones” se encuentra ubicada en:",
       options: {
-        A: "a",
-        B: "b",
-        C: "c",
-        D: "d"
+        a: "Clase 4",
+        b: "Clase 5",
+        c: "Clase 2",
+        d: "Clase 3"
       },
-      answer: "A"
+      answer: "d"
     }
   ];
 
