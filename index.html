@@ -1,0 +1,65 @@
+<html lang="es">
+<head><link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <body>
+    <div id="gradient"></div>
+    <div id="page">
+      <div id="Message-Container">
+        <div id="message">
+          <h1>Laberinto
+El objetivo del juego es llegar a la meta contestando las preguntas que aparezcan, cada 15 segundos aparecera una nueva pregunta</h1>
+
+          <p id="moves"></p>
+<!--           <input id="okBtn" type="button" onclick="toggleVisablity('Message-Container')" value="empezar de nuevo" /> -->
+          <!-- AddToAny BEGIN -->
+<div id="com" class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-title="test">
+</div>
+<script>
+var a2a_config = a2a_config || {};
+a2a_config.onclick = 1;
+a2a_config.locale = "es";
+</script>
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+<!-- AddToAny END -->
+        </div>
+      </div>
+      <div id="menu">
+        <div class="custom-select">
+          <select id="diffSelect">
+                    <option value="18">Facil</option>
+                    <option value="20">Medio</option>
+                    <option value="25">Dificil</option>
+                    <option value="100">Extremo</option>                                      
+                </select>
+        </div>
+        <input id="startMazeBtn" type="button" onclick="makeMaze()" value="Empezar" />
+      </div>
+      <div id="view">
+        <div id="mazeContainer">
+          <canvas id="mazeCanvas" class="border" height="1100" width="1100"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="JS.js"></script></script>
+	<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyDPwQNni3sVHq4rAM8JeF8uIc-SSSRKKO8",
+    authDomain: "laberinto-35815.firebaseapp.com",
+    projectId: "laberinto-35815",
+    storageBucket: "laberinto-35815.appspot.com",
+    messagingSenderId: "1055262056356",
+    appId: "1:1055262056356:web:1c596e3a92c0cc57c1ab31"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
+  </body>
+</html>
