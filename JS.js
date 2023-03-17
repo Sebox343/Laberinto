@@ -44,11 +44,6 @@ startMazeBtn.addEventListener("click", function() {
       window.alert("Game over, se reiniciara el juego");
       location.reload(); // reiniciar la página
     }
-
-    counter++;
-    if (document.getElementById("mazeContainer").style.opacity < "100") {
-      clearInterval(intervalId);
-    }
   }, 15000);
 });
 function rand(max) {
