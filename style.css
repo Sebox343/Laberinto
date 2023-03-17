@@ -1,0 +1,14 @@
+#menu {
+  font-size: 50px; /* cambia el valor de la propiedad font-size para ajustar el tamaño del texto según sea necesario */
+}
+#diffSelect {
+  font-size: 50px; /* cambia el valor de la propiedad font-size para ajustar el tamaño del texto según sea necesario */
+}
+#startMazeBtn {
+  font-size: 50x; /* ajusta el tamaño del texto del botón */
+  padding: 40px 50px; /* ajusta el tamaño del botón alrededor del texto */
+}
+.border {
+  overflow: hidden;
+}
+
