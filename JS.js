@@ -31,7 +31,37 @@ startMazeBtn.addEventListener("click", function() {
         D: "Clase 3"
       },
       answer: "D"
-    }
+    },
+    {
+      question: "El codigo de la cuenta “impuestos” es:",
+      options: {
+        A: "5010",
+        B: "5295",
+        C: "5780",
+        D: "5115"
+      },
+      answer: "D"
+      },
+     {
+      question: "La descripción: “Registra el valor de los gastos pagados o causados por el ente económico por concepto de seguros en sus diversas modalidades”. Hace referencia la cuenta:",
+      options: {
+        A: "Seguros",
+        B: "Incendio",
+        C: "Terrenos",
+        D: "Honorarios"
+      },
+      answer: "A"
+      },
+        {
+      question: "La clase 6 es denominada la clase de:",
+      options: {
+        A: "Cuentas de orden deudoras",
+        B: "Ingresos",
+        C: "Costos de venta",
+        D: "Patrimonio"
+      },
+      answer: "C"
+    },
   ];
 
   let counter = 0;
