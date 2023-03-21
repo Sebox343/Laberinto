@@ -112,7 +112,7 @@ function changeBrightness(factor, sprite) {
 
 function displayVictoryMess(moves) {
   document.getElementById("moves").innerHTML =
-    "Te has movido " + moves + " veces.";
+    "Ganaste, Te has movido" + moves + " veces.";
   toggleVisablity("Message-Container");
 }
 
